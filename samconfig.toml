@@ -8,6 +8,8 @@ stack_name = "sam-app-java11"
 [default.build.parameters]
 cached = true
 parallel = true
+profile = "pretty-solution"
+region = "us-east-1"
 
 [default.validate.parameters]
 lint = true
@@ -16,6 +18,8 @@ lint = true
 capabilities = "CAPABILITY_IAM"
 confirm_changeset = true
 resolve_s3 = true
+profile = "pretty-solution"
+region = "us-east-1"
 
 [default.package.parameters]
 resolve_s3 = true
