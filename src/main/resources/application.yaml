@@ -1,0 +1,4 @@
+spring:
+  datasource:
+    url: jdbc:aws-wrapper:mysql://${DB_ENDPOINT:localhost}:3306/globgive
+    username: ${DB_USER:crisis-response-api}
